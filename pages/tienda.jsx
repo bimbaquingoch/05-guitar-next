@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 
 const Tienda = () => {
-  return <Layout>tienda</Layout>;
+  return <Layout page={"tienda"}>tienda</Layout>;
 };
 
 export default Tienda;

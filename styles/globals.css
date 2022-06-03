@@ -1,6 +1,8 @@
 :root {
-  --primary: #e99401;
-  --negro: #262626;
+  /* --primary: #e99401; */
+  --slate-200: #e2e8f0;
+  --primary: #fb923c;
+  --negro: #1e293b;
   --blanco: #fff;
   --fuente-principal: "Outfit", sans-serif;
 }
@@ -14,6 +16,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  background-color: var(--slate-200);
   font-size: 2rem;
   font-family: var(--fuente-principal);
   line-height: 1.5;
@@ -33,4 +36,9 @@ img {
   font-weight: 900;
   color: var(--primary);
   margin: 5rem 0;
+}
+
+a {
+  color: var(--blanco);
+  text-decoration: none;
 }
